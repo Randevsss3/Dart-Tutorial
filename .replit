@@ -1,0 +1,9 @@
+modules = ["dart-3.0:v1-20230623-0b7a606"]
+run = "dart run main.dart"
+
+[nix]
+channel="stable-23_05"
+
+[deployment]
+run = ["sh", "-c", "dart run main.dart"]
+deploymentTarget = "cloudrun"

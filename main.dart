@@ -1,3 +1,13 @@
+import 'variable.dart';
+import 'tipedata.dart';
+
 void main(){
-  print('hello world')
+
+  // tampilkan variabel.dart
+  //variabel();
+
+  tipedata();
+  
+  
 }
+
