@@ -3,8 +3,8 @@ import 'tipedata.dart';
 
 void main(){
 
-  // tampilkan variabel.dart
-  //variabel();
+  //tampilkan variabel.dart
+  variabel();
 
   tipedata();
   
