@@ -55,5 +55,13 @@ tipedata(){
   var text = 'bahasa \'dart\' adalah bahasa \$cool';
 
   print(text);
+
+  //multiline String, yaitu teks yang bisa menjadi beberapa Paragraf dengan menambahkan 3 tanda kutip 1
+
+  var multi = '''halo semua
+  ini adalah 
+  multiline string''';
+
+  print(multi);
     
 }
