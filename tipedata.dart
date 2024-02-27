@@ -48,5 +48,12 @@ tipedata(){
   String namaPanjang = '$firstName $lastName';
 
   print(namaPanjang);
+
+  //karakter backslah (\)
+  //yaitu karakter untuk menunjukkan bahwa benar karakter tersebut 
+
+  var text = 'bahasa \'dart\' adalah bahasa \$cool';
+
+  print(text);
     
 }
