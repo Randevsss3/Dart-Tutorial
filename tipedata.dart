@@ -33,5 +33,20 @@ tipedata(){
 
   hariSenin = true;
   print(hariSenin);
+
+  //String
+  String firstName = 'Alex';
+  String lastName = 'Golfie';
+
+  String fullName = firstName + lastName;
+
+  print(fullName);
+
+  //string interpolation
+  /* string mendukung expression yaitu bisa mengambil data dari variabel lain*/
+
+  String namaPanjang = '$firstName $lastName';
+
+  print(namaPanjang);
     
 }
