@@ -43,7 +43,7 @@ tipedata(){
   print(fullName);
 
   //string interpolation
-  /* string mendukung expression yaitu bisa mengambil data dari variabel lain*/
+  /* string mendukung expression yaitu bisa mengambil data dari variabel lain dengan menambahkan lambang $ diawal nama variabel*/
 
   String namaPanjang = '$firstName $lastName';
 
