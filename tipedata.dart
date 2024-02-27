@@ -55,7 +55,7 @@ tipedata(){
   var text = 'bahasa \'dart\' adalah bahasa \$cool';
 
   print(text);
-
+  
   //multiline String, yaitu teks yang bisa menjadi beberapa Paragraf dengan menambahkan 3 tanda kutip 1
 
   var multi = '''halo semua
@@ -63,5 +63,20 @@ tipedata(){
   multiline string''';
 
   print(multi);
+
+  //dynamic, adalah tipedata yang bisa diubah tipedata lainnya
+
+  dynamic dinamis;
+  dinamis = 'halo';
+  print(dinamis);
+
+  dinamis = 123;
+  print(dinamis);
+
+  dinamis = 3.14;
+  print(dinamis);
+
+  dinamis = true;
+  print(dinamis);
     
 }
