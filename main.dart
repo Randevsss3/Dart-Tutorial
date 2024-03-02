@@ -1,6 +1,7 @@
-import 'variable.dart';
+/*import 'variable.dart';
 import 'tipedata.dart';
-import 'konversiTipeData.dart';
+*/
+import 'konversi tipe data/numtostring.dart';
 
 void main(){
 
