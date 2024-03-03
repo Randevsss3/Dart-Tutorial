@@ -32,5 +32,12 @@ konversiTpDt(){
   var doubleToString = intToDouble.toString();
   print('double ke string' + ' ' +  doubleToString);
 
+  //boolean to String
+
+  var inputBool = true;
+  var valBool = inputBool.toString();
+
+  print(valBool);
+
   
 }
